@@ -188,5 +188,5 @@ def test_all_users(item_num, test_data_pos, user_pos, top_k):
 
 _, _, test_data_pos, _, user_pos, _, item_num, _, _, _, _, _, _ = data_utils.load_all(dataset, data_path+"/")
 clean_precision, clean_recall, clean_NDCG, clean_MRR = test_all_users(item_num, test_data_pos, user_pos, K_list)
-print("Recall {:.4f}-{:.4f}-{:.4f}-{:.4f}".format(clean_recall[0], clean_recall[1]))
-print("NDCG {:.4f}-{:.4f}-{:.4f}-{:.4f}".format(clean_NDCG[0], clean_NDCG[1]))
+print("Recall {:.4f}-{:.4f}".format(clean_recall[0], clean_recall[1]))
+print("NDCG {:.4f}-{:.4f}".format(clean_NDCG[0], clean_NDCG[1]))
