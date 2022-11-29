@@ -5,6 +5,8 @@ This is an implementation for our WWW 2022 paper **Learning Robust Recommenders 
 + torch == 1.9.0+cu102
 + Numpy 
 + python3
++ scipy
++ pandas
 
 ## Datasets
 
